@@ -1,0 +1,273 @@
+{
+  "Version": 4,
+  "Features": {
+    "drag_edit": {
+      "Enabled": false,
+      "Bind": "P",
+      "Delay": 0,
+      "Num": {
+        "repeat_gap": 1,
+        "dist": 10,
+        "steps": 1,
+        "step_delay": 0,
+        "tile_dwell": 0,
+        "release_delay": 0,
+        "return_aim": 1
+      },
+      "Str": {
+        "mode": "Hold",
+        "start": "Center",
+        "tiles": "111111111",
+        "confirm": "Hold Edit"
+      }
+    },
+    "single_edit": {
+      "Enabled": false,
+      "Bind": "",
+      "Delay": 40,
+      "Num": {
+        "repeat_gap": 1,
+        "click_hold": 45,
+        "dist": 40,
+        "steps": 5,
+        "step_delay": 6,
+        "tile_dwell": 20,
+        "release_delay": 40,
+        "return_aim": 1
+      },
+      "Str": {
+        "mode": "Hold",
+        "start": "Center",
+        "tiles": "010010010",
+        "confirm": "Tap Edit"
+      }
+    },
+    "double_edit": {
+      "Enabled": false,
+      "Bind": "L",
+      "Delay": 5,
+      "Num": {
+        "repeat_gap": 1,
+        "click_hold": 1,
+        "gap": 0,
+        "auto_reset": 0,
+        "reset_delay": 120,
+        "reset_step": 45
+      },
+      "Str": {
+        "mode": "Hold"
+      }
+    },
+    "simple_edit": {
+      "Enabled": false,
+      "Bind": "",
+      "Delay": 40,
+      "Num": {
+        "repeat_gap": 1,
+        "click_hold": 45,
+        "confirm_edit": 0,
+        "auto_reset": 0,
+        "reset_delay": 120,
+        "reset_step": 45
+      },
+      "Str": {
+        "mode": "Hold"
+      }
+    },
+    "auto_build": {
+      "Enabled": false,
+      "Bind": "",
+      "Delay": 0,
+      "Num": {
+        "repress": 0
+      },
+      "Str": {
+        "mode": "Hold",
+        "bind_wall": "DELETE",
+        "bind_floor": "END",
+        "bind_ramp": "UP",
+        "bind_pyramid": "LEFT"
+      }
+    },
+    "weapon_pullout": {
+      "Enabled": false,
+      "Bind": "",
+      "Delay": 0,
+      "Num": {
+        "fire": 0,
+        "window": 3000,
+        "equip_delay": 15
+      },
+      "Str": {
+        "slot": "Slot 1",
+        "trigger": "Both"
+      }
+    },
+    "auto_pickup": {
+      "Enabled": false,
+      "Bind": "Q",
+      "Delay": 1,
+      "Num": {
+        "hold": 1
+      },
+      "Str": {
+        "mode": "Hold"
+      }
+    },
+    "fb_drag": {
+      "Enabled": true,
+      "Bind": "G",
+      "Delay": 25,
+      "Num": {
+        "open_edit": 1,
+        "release_delay": 0,
+        "fps": 240,
+        "auto_reset": 0,
+        "reset_delay": 151,
+        "reset_step": 75
+      },
+      "Str": {
+        "confirm": "Release click"
+      }
+    },
+    "fb_double": {
+      "Enabled": true,
+      "Bind": "MOUSE5",
+      "Delay": 5,
+      "Num": {
+        "repeat_gap": 1,
+        "click_hold": 6,
+        "gap": 6
+      },
+      "Str": {
+        "mode": "Once",
+        "confirm": "Release click"
+      }
+    },
+    "fb_rapid": {
+      "Enabled": true,
+      "Bind": "H",
+      "Delay": 0,
+      "Num": {
+        "fps": 240,
+        "repeat_gap": 1,
+        "click_hold": 1
+      },
+      "Str": {
+        "mode": "Hold",
+        "confirm": "Release click"
+      }
+    },
+    "fb_instant": {
+      "Enabled": false,
+      "Bind": "",
+      "Delay": 0,
+      "Num": {
+        "fps": 240,
+        "click_hold": 1,
+        "place_gap": 0,
+        "swap_back": 0
+      },
+      "Str": {
+        "mode": "Hold",
+        "place": "Left Click",
+        "bind_wall": "Z",
+        "bind_floor": "X",
+        "bind_ramp": "C",
+        "bind_pyramid": "V"
+      }
+    },
+    "fb_editreset": {
+      "Enabled": true,
+      "Bind": "MOUSE4",
+      "Delay": 250,
+      "Num": {
+        "fps": 240,
+        "tick_gap": 0,
+        "open_edit": 1,
+        "burst": 1
+      },
+      "Str": {
+        "mode": "Toggle",
+        "direction": "Scroll Down"
+      }
+    }
+  },
+  "Keys": {
+    "edit": "G",
+    "pickup": "E",
+    "slot1": "F",
+    "slot2": "1",
+    "slot3": "2",
+    "slot4": "3",
+    "slot5": "4",
+    "slot6": "5",
+    "slot7": "6",
+    "wall": "Z",
+    "floor": "X",
+    "ramp": "C",
+    "pyramid": "V"
+  },
+  "Cross": {
+    "Cross": {
+      "Enabled": true,
+      "ToggleKey": "",
+      "Color": "#FF3B30",
+      "Show": 100,
+      "Length": 8,
+      "Thickness": 2,
+      "Cap": 0,
+      "Outline": 1,
+      "Dot": 3
+    },
+    "X": {
+      "Enabled": false,
+      "ToggleKey": "",
+      "Color": "#FF3B30",
+      "Show": 100,
+      "Length": 10,
+      "Thickness": 2,
+      "Cap": 0,
+      "Outline": 1,
+      "Dot": 3
+    },
+    "Dot": {
+      "Enabled": false,
+      "ToggleKey": "",
+      "Color": "#FF3B30",
+      "Show": 100,
+      "Length": 10,
+      "Thickness": 2,
+      "Cap": 0,
+      "Outline": 1,
+      "Dot": 3
+    },
+    "Cross \u002B Dot": {
+      "Enabled": true,
+      "ToggleKey": "PGUP",
+      "Color": "#2E7DFF",
+      "Show": 100,
+      "Length": 10,
+      "Thickness": 2,
+      "Cap": 3,
+      "Outline": 1,
+      "Dot": 3
+    }
+  },
+  "CrosshairStyle": "Cross \u002B Dot",
+  "ResetMethod": "Right Click",
+  "ScrollMs": 50,
+  "TapMs": 25,
+  "RobloxOnly": true,
+  "Debug": false,
+  "Theme": "Amber",
+  "HideTaskbar": true,
+  "Animations": true,
+  "Breathing": true,
+  "UiKey": "INSERT",
+  "PanicKey": "F12",
+  "Fps": 144,
+  "FpsFloor": true,
+  "Opacity": 100,
+  "Scale": 100
+}
